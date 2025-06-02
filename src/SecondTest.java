@@ -15,7 +15,14 @@ public class SecondTest
 
     @Test(priority = 5)
     void tearDown() {
-//        System.out.println("Closing Browser....2");
-        Assert.assertEquals(0,1);
+        System.out.println("Closing Browser....2");
+//        Assert.assertEquals(0,1);
+        Assert.assertEquals(0,0);
+    }
+
+    @Test(priority = 2,enabled = false)
+    void test()
+    {
+        System.out.println("This test is used to disable test...");
     }
 }

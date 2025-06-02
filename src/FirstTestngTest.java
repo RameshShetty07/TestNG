@@ -12,7 +12,7 @@ public class FirstTestngTest {
     }
 
     //    @Test
-    @Test(priority = 2)
+    @Test(priority = 1)
     void login() {
         System.out.println("This is login Test....1");
     }

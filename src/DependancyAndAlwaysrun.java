@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 public class DependancyAndAlwaysrun
 {
-    @Test
+    @Test()
     void startCar()
     {
         System.out.println("Car Started..");
